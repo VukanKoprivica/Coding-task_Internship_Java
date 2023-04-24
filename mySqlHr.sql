@@ -1,5 +1,4 @@
-DROP TABLE hr.CandidateSkills;
-DROP TABLE hr.Skills;
+
 CREATE TABLE  hr.Candidate (
   idCandidate INT NOT NULL AUTO_INCREMENT,
   name VARCHAR(45) NULL unique,
